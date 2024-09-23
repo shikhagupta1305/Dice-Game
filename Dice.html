@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICE CHALLANGE GAME</title>
+    <link rel="stylesheet" href="Dice.css">
+
+</head>
+<body>
+    <h1 id="result">LET'S PLAY THE GAME</h1>
+    <audio id="audio" src="/library/dice/w.mp3 "></audio>
+    <table>
+        <tr>
+            <td class="game name">Player1</td>
+            <td class="game name">Player2 </td>
+        </tr>
+        <tr>
+            <td class="game" id="dice1"><img src="https://media.discordapp.net/attachments/1113404400984129576/1280837239911350302/dice1.png?ex=66d98822&is=66d836a2&hm=f237c84285c8eec9ab7576f6e2437d8c52ee568772fdc503da475ae7745007e2&=&format=webp&quality=lossless&width=450&height=450"></td>
+            <td class="game" id="dice2"><img src="https://media.discordapp.net/attachments/1113404400984129576/1280837239911350302/dice1.png?ex=66d98822&is=66d836a2&hm=f237c84285c8eec9ab7576f6e2437d8c52ee568772fdc503da475ae7745007e2&=&format=webp&quality=lossless&width=450&height=450"></td>
+        </tr>
+    </table>
+    <input class="btn" type="button" value="Play" id="playBtn" style="margin-left: 30%;" onclick="play()">
+
+   <input class="btn" type="button" value="Edit Name" onclick="edit()">
+    <script src="Dice.js"></script>
+</body>
+</html>

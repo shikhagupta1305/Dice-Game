@@ -1,0 +1,37 @@
+body{
+   background-image: url('https://media.istockphoto.com/id/1225724659/vector/dreamy-smooth-abstract-blue-green-background.jpg?s=612x612&w=0&k=20&c=ng4_9FSFUlUlP0P4B9kZEhWX1Ke7Lt8rpQXZFwCQc34=');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+    color: #000303ba;
+    text-align: center;
+    font-size: 5rem;
+}
+
+table{
+    padding-left: 29%;
+}
+
+.game{
+    color: #000000ba;
+    font-size: 3rem;
+    padding-right: 100px;
+}
+
+.btn{
+    color: white;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 55px;
+    width: 225px;
+    border-radius: 25px;
+    font-weight: 1.5rem;
+    cursor: pointer;
+    background-color: #000e0dba;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
